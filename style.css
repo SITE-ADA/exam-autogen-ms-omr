@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+}
+
+#container {
+    display: inline-block;
+}
+
+#question-part {
+    /* display: flex;
+    justify-content: center; */
+    
+}
+
+#field-bar {
+    /* margin: auto; */
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td {
+
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+#question-part td {
+    border: none;
+    width: 13px;
+}
+
+
+.questions {
+width: 20px;
+}
+
+.bubble {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 9px;
+    text-align: center;
+}
+
+.question-table {
+border: 1px solid #000;
+margin: 10px;
+padding: 2px;
+}
+.emptyBubble {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.question-number {
+    font-size: 11px;
+}
+
+
+/* Student Id table */
+
+#studentId {
+    border: 1px solid black;
+    width: 80px;
+    height: 110px;
+    
+}
+
+#studentId tr {
+    border-bottom: 1px solid black;
+}
+
+#studentId >  :last-child {
+    border-bottom: none;
+}
+
+.fieldName {
+    display: block;
+    height: 15px;
+    
+}
+
+.fieldText {
+    margin: 0;
+    font-size: 13px;
+}
+
+/* Full name */
+
+#fullName {
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.emptyRow {
+    margin: 0;
+    height: 15px;
+}
+
+#fullName tr {
+    border-bottom: 1px solid black;
+}
+
+#fullName >  :last-child {
+    border-bottom: none;
+}
+
+#variant {
+    display: block;
+}
